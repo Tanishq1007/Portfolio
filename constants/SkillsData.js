@@ -3,19 +3,19 @@ import {
   SiNodedotjs,
   SiNextdotjs,
   SiVercel,
-  SiNetlify,
   SiExpress,
   SiRedux,
   SiTailwindcss,
   SiMui,
-  SiChakraui,
   SiFirebase,
   SiTypescript,
-  SiJquery
+  SiJquery,
+  SiCsharp, 
+  SiCplusplus
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaJava, FaCuttlefish, FaPython, FaWordpress,  } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
@@ -66,15 +66,15 @@ export const TechStackData = [
       },
       {
         name: "C++",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        icon: <SiCplusplus className="md:text-4xl text-2xl" color="#00599C" />
       },
       {
         name: "C",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        icon: <FaCuttlefish className="md:text-4xl text-2xl" color="#A8B9CC" /> // Using Cuttlefish for C as there is no exact C icon in react-icons
       },
       {
         name: "C#",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        icon: <SiCsharp className="md:text-4xl text-2xl" color="#239120" />
       },
     ],
     Good: [
@@ -83,8 +83,8 @@ export const TechStackData = [
         icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
       },
       {
-        name: "NodeJS",
-        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
+        name: "Node.js",
+        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#339933" />
       },
       {
         name: "Express",
@@ -112,12 +112,13 @@ export const TechStackData = [
       },
       {
         name: "Python",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        icon: <FaPython className="md:text-4xl text-2xl" color="#3776AB" />
       },
       {
         name: "WordPress",
-        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
+        icon: <FaWordpress className="md:text-4xl text-2xl" color="#21759B" />
       },
+     
 
     ],
     Familiar: [
