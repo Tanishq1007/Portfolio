@@ -34,6 +34,24 @@ export const ProjectsData = [
             imageUrl: "/images/2248.png"
         },
         techs: ["HTML", "CSS", "JavaScript"]
-    }
+    },
+    {
+        projectName: "Portfolio",
+        liveUrl: "https://myportfolio-phi-three-96.vercel.app/",
+        githubUrl: "https://github.com/Tanishq1007/Portfolio.git",
+        projectImage: {
+            imageUrl: "/images/portfolio.png"
+        },
+        techs: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux"]
+    },
+    {
+        projectName: "Github Insights Dashoard",
+        liveUrl: "https://app-repository-dashboard-bev3hj9fbtjcubnrb5fjfl.streamlit.app/",
+        githubUrl: "https://github.com/Tanishq1007/Github-Repository-Dashboard.git",
+        projectImage: {
+            imageUrl: "/images/dashboard.png"
+        },
+        techs: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux"]
+    },
     
 ]
