@@ -130,7 +130,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  4{" "}
+                  6{" "}
                 </p>
               </div>
             </div>
