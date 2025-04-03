@@ -51,7 +51,15 @@ export const ProjectsData = [
         projectImage: {
             imageUrl: "/images/dashboard.png"
         },
-        techs: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux"]
+        techs: ["Python", "Streamlit", "Pandas", "Matplotlib", "Seaborn"]
     },
-    
+    {
+        projectName: "Pokedex",
+        liveUrl: "https://pokemon-explorer-sable.vercel.app/",
+        githubUrl: "https://github.com/Tanishq1007/Pokemon-Explorer",
+        projectImage: {
+            imageUrl: "/images/Pokedex.png"
+        },
+        techs: ["NexxtJS", "TypeScript", "Tailwind CSS", "API Routes"]
+    },
 ]
